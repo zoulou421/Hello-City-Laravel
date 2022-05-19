@@ -9,7 +9,7 @@
          
          
          <h2 class="mb-5 text-gray-700">
-            Building <span class="text-pink-500">&hearts; </span> by FORMATION KILO
+            Is in building <span class="text-pink-500">&hearts; </span> by FORMATION KILO
          </h2>
 
 
