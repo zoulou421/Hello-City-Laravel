@@ -5,7 +5,7 @@
 
 @section('content')
  
- <img src="{{ asset('images/sn_flag.png')}}" alt="Senegal flag" class="my-12 rounded-full shadow-md" />
+ <img src="{{ asset('images/sn_flag.png')}}" alt="Senegal flag" class="my-12 shadow-md " />
          
          
          <h2 class="mb-5 text-gray-700">
