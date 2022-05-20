@@ -595,7 +595,7 @@
                                             <div class="pricing_content mt-6">
                                                 <span class="pricing_price font-bold text-black text-4xl">61924 Franc CFA</span>
                                                 <p class="mt-4 leading-9">Lorem ipsum dolor sit am consetetur sadi aliquyam erat sed diam voluptua vero eos  accusam et justo duo dolores </p>
-                                                <a href="" class="main-btn pricing_btn">Choose Plan</a>
+                                                <a href="" class="main-btn pricing_btn">Choisissez un forfait</a>
                                             </div>
                                         </div>  <!-- single pricing -->
                                     </div>
@@ -611,7 +611,7 @@
                                             <div class="pricing_content mt-6">
                                                 <span class="pricing_price font-bold text-black text-4xl">124474 Franc CFA</span>
                                                 <p class="mt-4 leading-9">Lorem ipsum dolor sit am consetetur sadi aliquyam erat sed diam voluptua vero eos  accusam et justo duo dolores </p>
-                                                <a href="" class="main-btn pricing_btn">Choose Plan</a>
+                                                <a href="" class="main-btn pricing_btn">Choisissez un forfait</a>
                                             </div>
                                         </div>  <!-- single pricing -->
                                     </div>
@@ -627,7 +627,7 @@
                                             <div class="pricing_content mt-6">
                                                 <span class="pricing_price font-bold text-black text-4xl">312124 Franc CFA</span>
                                                 <p class="mt-4 leading-9">Lorem ipsum dolor sit am consetetur sadi aliquyam erat sed diam voluptua vero eos  accusam et justo duo dolores </p>
-                                                <a href="" class="main-btn pricing_btn">Choose Plan</a>
+                                                <a href="" class="main-btn pricing_btn">Choisissez un forfait</a>
                                             </div>
                                         </div>  <!-- single pricing -->
                                     </div>
