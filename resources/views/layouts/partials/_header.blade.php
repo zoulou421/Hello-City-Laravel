@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <!--====== Title ======-->
+    <title>Sn Dev - Plateforme de développement des applications au sénégal</title>
+   
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/png">
+
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
+
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="{{asset ('assets/css/tiny-slider.css') }}">
+
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="{{ asset('assets/fonts/lineicons/font-css/LineIcons.css') }}">
+
+    <!--====== Tailwind CSS ======-->
+    <link rel="stylesheet" href="{{ asset('assets/css/tailwindcss.css') }}">
+
+</head>
+
+<body>
