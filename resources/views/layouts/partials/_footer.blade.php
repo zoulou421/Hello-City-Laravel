@@ -26,7 +26,7 @@
                                 <a href="#"><img src="{{ asset('assets/images/logo.png')}}" class="shadow-md rounded-md" alt=""></a>
                             </div>
                             <div class="footer_content mt-8">
-                                <p class="text-white">Bigafrique est un groupe, la maison mère de  l'entreprise Formation KILO;initiatrice du projet Sénégal Dev.</p>
+                                <p class="text-white">Bigafrique est un groupe, la maison mère de  l'entreprise Formation KILO;initiatrice du projet {{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}}.</p>
                             </div>
                         </div> <!-- footer about -->
 
