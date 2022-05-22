@@ -33,7 +33,7 @@
                     <div class="w-full">
                         <nav class="flex items-center justify-between py-4 navbar navbar-expand-lg">
                             <a class="navbar-brand mr-5" href="#"  style="font-size:35px;font-weight: bold; color: tomato;">
-                               Sénégal Dev <!--img src="{{ asset('assets/images/logo.svg')}}" class="shadow-lg my-12" alt="Logo"-->
+                               {{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}} <!--img src="{{ asset('assets/images/logo.svg')}}" class="shadow-lg my-12" alt="Logo"-->
                             </a>
                             <button class="block navbar-toggler focus:outline-none lg:hidden" type="button" data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="toggler-icon"></span>
