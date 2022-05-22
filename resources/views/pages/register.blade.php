@@ -36,11 +36,11 @@
           max-w-md
         "
       >
-        <div class="font-medium self-center text-xl sm:text-2xl text-gray-800">
-          Inscrivez-vous, c'est gratuit. formation certifiée!
+        <div class="font-medium self-center text-xl sm:text-3xl text-gray-800">
+          Inscrivez-vous et formez-vous sur forfait.
         </div>
-        <div class="mt-4 self-center text-xl sm:text-sm text-gray-800">
-         Entrez vos informations d'identification pour obtenir un compte d'accès. 
+        <div class="mt-4 self-center text-xs sm:text-sm text-gray-400">
+         Apprentissage accléré en accès forfaitaire.Inscrivez-vous 
         </div>
 
         <div class="mt-10">

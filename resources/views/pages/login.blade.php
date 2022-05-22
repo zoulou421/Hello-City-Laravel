@@ -36,10 +36,10 @@
           max-w-md
         "
       >
-        <div class="font-medium self-center text-xl sm:text-2xl text-gray-800">
+        <div class="font-medium self-center text-xl sm:text-3xl text-gray-800">
           Connexion à mon compte
         </div>
-        <div class="mt-4 self-center text-xl sm:text-sm text-gray-800">
+        <div class="mt-4 self-center text-base sm:text-sm text-gray-400">
          Veuillez à ne pas partager vos accès {{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}} au public.
         </div>
 
