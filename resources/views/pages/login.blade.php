@@ -40,7 +40,7 @@
           Connexion à mon compte
         </div>
         <div class="mt-4 self-center text-xl sm:text-sm text-gray-800">
-         Votre espace personnel, veuillez à ne pas partager vos accès {{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}} au public.
+         Veuillez à ne pas partager vos accès {{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}} au public.
         </div>
 
         <div class="mt-10">

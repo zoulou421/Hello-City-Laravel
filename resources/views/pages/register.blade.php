@@ -40,7 +40,7 @@
           Inscrivez-vous, c'est gratuit. formation certifiée!
         </div>
         <div class="mt-4 self-center text-xl sm:text-sm text-gray-800">
-         Entrez vos informations d'identification pour obtenir un compte d'accès. Ce compte est valable aussi pour vous authentifiez. Le nom complet figurera sur votre attestation.
+         Entrez vos informations d'identification pour obtenir un compte d'accès. 
         </div>
 
         <div class="mt-10">
