@@ -14,6 +14,7 @@
     <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/png">
 
     <!--====== Animate CSS ======-->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/animate.css') }}">
 
     <!--====== Slick CSS ======-->
@@ -24,6 +25,8 @@
 
     <!--====== Tailwind CSS ======-->
     <link rel="stylesheet" href="{{ asset('assets/css/tailwindcss.css') }}">
+
+    
 
 </head>
 

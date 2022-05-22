@@ -114,7 +114,7 @@
                             <h2 class="hero_title text-2xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-extrabold">Formation accelerée en développement <span class="text-theme-color">Laravel</span></h2>
                             <p class="mt-8 lg:mr-8">{{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}} est une Start Up des développeurs passionnés par le framework Lararvel uniquement. C'est une fialiale orientée développement de la structure Formation Kilo  et une sous marque de l'Entreprise Bigafrique. <b style="color: red;">Nous vous formons sur du Laravel en seulement 3 jours,attestation delivrée et reconnue par </b><a href="https://www.formationkilo.com/"  target="_blank"> formation Kilo<a></p>
                             <div class="hero_btn mt-10">
-                                <a class="main-btn " href="#0">Je m'inscris maintenant</a> 
+                                <a class="main-btn " href="{{url('register')}}">Inscription gratuit</a> 
                                 
                             </div>
                         </div> <!-- header hero content -->
