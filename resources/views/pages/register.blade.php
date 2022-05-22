@@ -233,7 +233,7 @@
             <a
               href="{{ url('login')}}"
               class="text-xs ml-2 text-red-500 font-semibold"
-              >Connectez-vous ici</a
+              >Connectez-vous</a
             ></span
           >
 
@@ -242,7 +242,7 @@
             <a
               href="{{ url('/')}}"
               class="text-xs ml-2 text-blue-500 font-semibold"
-              >Retour à la page d'accueil</a
+              >Retour à l'accueil</a
             ></span
           >
          </a>
