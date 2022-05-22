@@ -5,7 +5,7 @@
     <meta charset="utf-8">
 
     <!--====== Title ======-->
-    <title>Sn Dev - Plateforme de développement des applications au sénégal</title>
+    <title>{{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}} - Plateforme de développement des applications au sénégal</title>
    
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
