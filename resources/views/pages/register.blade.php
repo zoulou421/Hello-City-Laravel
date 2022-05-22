@@ -236,6 +236,15 @@
               >Connectez-vous ici</a
             ></span
           >
+
+          <span class="ml-2"
+            > | 
+            <a
+              href="{{ url('/')}}"
+              class="text-xs ml-2 text-blue-500 font-semibold"
+              >Retour à la page d'accueil</a
+            ></span
+          >
          </a>
       </div>
     </div>
