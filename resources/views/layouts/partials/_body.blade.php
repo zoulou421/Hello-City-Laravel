@@ -41,7 +41,7 @@
                                 <span class="toggler-icon"></span>
                             </button>
 
-                            <div class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white lg:w-auto collapse navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent shadow lg:shadow-none" id="navbarOne">
+                            <div  class="absolute left-0 z-20 hidden w-full px-5 py-3 duration-300 bg-white lg:w-auto collapse navbar-collapse lg:block top-full mt-full lg:static lg:bg-transparent shadow lg:shadow-none" id="navbarOne">
                                 <ul id="nav" class="items-center content-start mr-auto lg:justify-end navbar-nav lg:flex">
                                     <li class="nav-item ml-5 lg:ml-11">
                                         <a class="page-scroll active" href="#home">Accueil</a>
