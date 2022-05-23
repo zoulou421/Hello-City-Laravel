@@ -1,23 +1,4 @@
 @include('layouts.partials._header') 
-
-
-<!-- component -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <title>
-    {{ isset($title) ? $title. ' | '.config('app.name'): config('app.name')}} -inscription à la formation</title>
-  </head>
-  <body>
     <div
       class="min-h-screen flex flex-col items-center justify-center bg-gray-100"
     >
@@ -248,8 +229,22 @@
          </a>
       </div>
     </div>
-  </body>
+  
+  
+
+    <!--====== Tiny Slider js ======-->
+    <script src="{{ asset('assets/js/tiny-slider.js')}}"></script>
+
+    <!--====== Wow js ======-->
+    <script src="{{ asset('assets/js/wow.min.js')}}"></script>
+
+    <!--====== Main js ======-->
+    <script src="{{ asset('assets/js/main.js')}}"></script>
+
+</body>
+
 </html>
+
   
 
 
