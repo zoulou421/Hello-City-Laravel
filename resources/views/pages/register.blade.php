@@ -25,10 +25,11 @@
         </div>
 
         <div class="mt-10">
-          <form action="#">
+          <form method="POST" action="{{ route('register') }}">
+            @csrf
             <div class="flex flex-col mb-5">
               <label
-                for="email"
+                for="name"
                 class="mb-1 text-xs tracking-wide text-gray-600"
                 >Nom Complet:</label
               >
@@ -44,15 +45,16 @@
                     h-full
                     w-10
                     text-gray-400
-                  "
+                  " 
                 >
                   <i class="fas fa-user text-red-500"></i>
                 </div>
 
                 <input
-                  id="email"
-                  type="email"
-                  name="email"
+                  id="name"
+                  type="text"
+                  value="{{ __('Name') }}"
+                   name="name" :value="old('name')" required autofocus autocomplete="name"
                   class="
                     text-sm
                     placeholder-gray-500
@@ -93,8 +95,8 @@
 
                 <input
                   id="email"
-                  type="email"
-                  name="email"
+                  type="email" name="email" :value="old('email')" required
+                  value="{{ __('Email') }}" 
                   class="
                     text-sm
                     placeholder-gray-500
@@ -137,8 +139,8 @@
 
                 <input
                   id="password"
-                  type="password"
-                  name="password"
+                  value="{{ __('Password') }}"
+                  type="password" name="password" required autocomplete="new-password"
                   class="
                     text-sm
                     placeholder-gray-500
@@ -154,6 +156,69 @@
                 />
               </div>
             </div>
+         <!-- confirmation de mot de passe :debut-->
+            <div class="flex flex-col mb-6">
+              <label
+                for="password_confirmation"
+                class="mb-1 text-xs sm:text-sm tracking-wide text-gray-600"
+                >Mot de passe:</label
+              >
+              <div class="relative">
+                <div
+                  class="
+                    inline-flex
+                    items-center
+                    justify-center
+                    absolute
+                    left-0
+                    top-0
+                    h-full
+                    w-10
+                    text-gray-400
+                  "
+                >
+                  <span>
+                    <i class="fas fa-lock text-red-500"></i>
+                  </span>
+                </div>
+
+                <input
+                  id="password"
+                  value="{{ __('Confirm Password') }}"
+                  id="password_confirmation" 
+                  type="password" name="password_confirmation" required autocomplete="new-password"
+                  class="
+                    text-sm
+                    placeholder-gray-500
+                    pl-10
+                    pr-4
+                    rounded-2xl
+                    border border-gray-400
+                    w-full
+                    py-2
+                    focus:outline-none focus:border-tomato-400
+                  "
+                  placeholder="Saisissez votre mot de passe"
+                />
+              </div>
+            </div>
+         <!--fin confirmation mot de passe -->
+                     @if (Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
+                <div class="mt-4">
+                    <x-jet-label for="terms">
+                        <div class="flex items-center">
+                            <x-jet-checkbox name="terms" id="terms"/>
+
+                            <div class="ml-2">
+                                {!! __('I agree to the :terms_of_service and :privacy_policy', [
+                                        'terms_of_service' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Terms of Service').'</a>',
+                                        'privacy_policy' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900">'.__('Privacy Policy').'</a>',
+                                ]) !!}
+                            </div>
+                        </div>
+                    </x-jet-label>
+                </div>
+            @endif
 
             <div class="flex w-full">
               <button
@@ -192,6 +257,7 @@
                     />
                   </svg>
                 </span>
+                {{ __('Register') }}
               </button>
             </div>
           </form>
@@ -212,9 +278,9 @@
           <span class="ml-2"
             >Avez-vous déjà un compte ?
             <a
-              href="{{ url('login')}}"
+              href="{{ route('login') }}
               class="text-xs ml-2 text-red-500 font-semibold"
-              >Connectez-vous</a
+              >Connectez-vous {{ __('Already registered?') }}</a
             ></span
           >
 

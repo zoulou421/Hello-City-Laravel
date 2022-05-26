@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
      
     <!--====== Favicon Icon ======-->
-    <link rel="shortcut icon" href="{{asset('assets/images/favicon.png')}}" type="image/png">
+    <link rel="shortcut icon" href="{{asset('images/sn_dev.jfif')}}" type="image/png">
 
     <!--====== Animate CSS ======-->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
