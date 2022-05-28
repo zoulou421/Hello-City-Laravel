@@ -31,7 +31,7 @@ Route::get('/register', function(){
 Route::get('/login', function(){
        return view('pages.login');
 });*/
-
+/*
 Route::middleware(['auth:sanctum, web',config('jetstream.auth_session'),
     'verified'])->get('/dashboard', function(){
       return view('dashboard');
@@ -47,7 +47,7 @@ Route::middleware([
     })->name('dashboard');
 });
 
-
+*/
 /*
 Route::middleware([
     'auth:sanctum,web',
@@ -58,13 +58,20 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+*/
+Route::middleware([
+    'auth:sanctum, admin',
+    config('jetstream.auth_session'),
+    'verified'
+])->group(function () {
+    Route::get('/admin/ashboard', function () {
+        return view('dashboard');
+    })->name('dashboard');
+});
 
-Route::middleware(['auth:sanctum,admin','verified'])->get('/admin/dashboard', function(){
+Route::middleware(['auth:sanctum, web',config('jetstream.auth_session'),
+    'verified'])->get('/dashboard', function(){
       return view('dashboard');
 })->name('dashboard');
-
-Route::middleware(['auth:sanctum,web','verified'])->get('/dashboard', function(){
-      return view('dashboard');
-})->name('dashboard');*/
 
 Route::resource('tasks',App\Http\Controllers\TaskController::class);
